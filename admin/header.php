@@ -36,7 +36,7 @@
             <a class="nav-link <?php echo ($_SERVER['PHP_SELF'] == '/laundry-php/admin/index.php' ? ' active' : ''); ?>" aria-current="page" href="index.php"><i class="bi bi-house-fill"></i> Dashboard</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link <?php echo ($_SERVER['PHP_SELF'] == '/laundry-php/admin/customer.php' ? ' active' : ''); ?>" href="customer.php"><i class="bi bi-person-lines-fill"></i> Pelanggan</a>
+            <a class="nav-link <?php echo ($_SERVER['PHP_SELF'] == '/laundry-php/admin/costumer.php' ? ' active' : ''); ?>" href="costumer.php"><i class="bi bi-person-lines-fill"></i> Pelanggan</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="transaction.php"><i class="bi bi-currency-dollar"></i> Transaksi</a>

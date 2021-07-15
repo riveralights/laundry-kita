@@ -3,17 +3,10 @@
 <div class="container mt-5">
   <div class="row justify-content-center">
     <div class="col-md-5">
-    <?php 
-        if(isset($_GET['message'])) {
-          if($_GET['message'] == 'success')  {
-            echo "<div class='alert alert-success text-center'><strong>Berhasil!</strong> password anda telah diganti</div>";
-          }
-        }
-      ?>
       <div class="card">
         <div class="card-body">
           <h4 class="mb-4">Tambah Pelanggan Baru</h4>
-          <form action="add_customer_action.php" method="POST">
+          <form action="add_costumer_action.php" method="POST">
             <div class="mb-3">
               <label for="nama" class="form-label">Nama pelanggan</label>
               <input type="text" name="nama" id="nama" class="form-control" placeholder="Nama pelanggan">

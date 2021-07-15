@@ -3,11 +3,20 @@
 <div class="container mt-5">
   <div class="row justify-content-center">
     <div class="col-md-10">
+    <?php 
+        if(isset($_GET['message'])) {
+          if($_GET['message'] == 'success')  {
+            echo "<div class='alert alert-success text-center'><strong>Sukses!</strong> data telah ditambahkan</div>";
+          } else if($_GET['message'] == 'updated')  {
+            echo "<div class='alert alert-success text-center'><strong>Sukses!</strong> data berhasil di update</div>";
+          }
+        }
+      ?>
       <div class="card">
         <div class="card-body">
           <div class="d-flex justify-content-between my-3">
             <h4>Daftar Pelanggan</h4>
-            <a href="add_customer.php" class="btn btn-primary mb-3"><i class="bi bi-person-plus-fill"></i> Tambah Data</a>
+            <a href="add_costumer.php" class="btn btn-primary mb-3"><i class="bi bi-person-plus-fill"></i> Tambah Data</a>
           </div>
           <table class="table table-hover table-bordered">
             <thead>
@@ -34,7 +43,7 @@
                     <td><?= $pelanggan['pelanggan_hp'] ?></td>
                     <td><?= $pelanggan['pelanggan_alamat'] ?></td>
                     <td class="text-center">
-                      <a href="pelanggan.edit.php?id=<?= $pelanggan['pelanggan_id'] ?>" class="btn btn-warning btn-sm"><i class="bi bi-pencil-fill"></i> Edit</a>
+                      <a href="edit_costumer.php?id=<?= $pelanggan['pelanggan_id'] ?>" class="btn btn-warning btn-sm"><i class="bi bi-pencil-fill"></i> Edit</a>
                       <a href="pelanggan.hapus.php?id=<?= $pelanggan['pelanggan_id'] ?>" class="btn btn-danger btn-sm"><i class="bi bi-trash-fill"></i> Hapus</a>
                     </td>
                   </tr> 
