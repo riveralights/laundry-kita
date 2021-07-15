@@ -8,7 +8,9 @@
           if($_GET['message'] == 'success')  {
             echo "<div class='alert alert-success text-center'><strong>Sukses!</strong> data telah ditambahkan</div>";
           } else if($_GET['message'] == 'updated')  {
-            echo "<div class='alert alert-success text-center'><strong>Sukses!</strong> data berhasil di update</div>";
+            echo "<div class='alert alert-success text-center'><strong>Sukses!</strong> data berhasil di perbaharui</div>";
+          } else if($_GET['message'] == 'deleted')  {
+            echo "<div class='alert alert-warning text-center'><strong>Sukses!</strong> data berhasil di hapus</div>";
           }
         }
       ?>
@@ -44,7 +46,7 @@
                     <td><?= $pelanggan['pelanggan_alamat'] ?></td>
                     <td class="text-center">
                       <a href="edit_costumer.php?id=<?= $pelanggan['pelanggan_id'] ?>" class="btn btn-warning btn-sm"><i class="bi bi-pencil-fill"></i> Edit</a>
-                      <a href="pelanggan.hapus.php?id=<?= $pelanggan['pelanggan_id'] ?>" class="btn btn-danger btn-sm"><i class="bi bi-trash-fill"></i> Hapus</a>
+                      <a href="delete_costumer.php?id=<?= $pelanggan['pelanggan_id'] ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin ingin menghapus?');"><i class="bi bi-trash-fill"></i> Hapus</a>
                     </td>
                   </tr> 
               <?php } ?>
