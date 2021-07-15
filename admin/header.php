@@ -45,7 +45,7 @@
             <a class="nav-link" href="report.php"><i class="bi bi-file-earmark-fill"></i> Laporan</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link <?php echo ($_SERVER['PHP_SELF'] == '/laundry-php/admin/price.php' ? ' active' : ''); ?> dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="bi bi-gear-fill"></i> Pengaturan
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
