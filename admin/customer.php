@@ -4,12 +4,10 @@
   <div class="row justify-content-center">
     <div class="col-md-10">
       <div class="card">
-        <div class="card-header">
-          <div class="card-title">Daftar Pelanggan</div>
-        </div>
         <div class="card-body">
-          <div class="d-flex justify-content-end">
-            <a href="" class="btn btn-primary mb-3"><i class="bi bi-person-plus-fill"></i> Tambah Data</a>
+          <div class="d-flex justify-content-between my-3">
+            <h4>Daftar Pelanggan</h4>
+            <a href="add_customer.php" class="btn btn-primary mb-3"><i class="bi bi-person-plus-fill"></i> Tambah Data</a>
           </div>
           <table class="table table-hover table-bordered">
             <thead>
