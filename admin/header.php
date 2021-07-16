@@ -33,10 +33,10 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link <?php echo ($_SERVER['PHP_SELF'] == '/laundry-php/admin/index.php' ? ' active' : ''); ?>" aria-current="page" href="index.php"><i class="bi bi-house-fill"></i> Dashboard</a>
+            <a class="nav-link <?php echo ($_SERVER['PHP_SELF'] == '/laundry-kita/admin/index.php' ? ' active' : ''); ?>" aria-current="page" href="index.php"><i class="bi bi-house-fill"></i> Dashboard</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link <?php echo ($_SERVER['PHP_SELF'] == '/laundry-php/admin/costumer.php' ? ' active' : ''); ?>" href="costumer.php"><i class="bi bi-person-lines-fill"></i> Pelanggan</a>
+            <a class="nav-link <?php echo ($_SERVER['PHP_SELF'] == '/laundry-kita/admin/costumer.php' ? ' active' : ''); ?>" href="costumer.php"><i class="bi bi-person-lines-fill"></i> Pelanggan</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="transaction.php"><i class="bi bi-currency-dollar"></i> Transaksi</a>
@@ -45,7 +45,7 @@
             <a class="nav-link" href="report.php"><i class="bi bi-file-earmark-fill"></i> Laporan</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link <?php echo ($_SERVER['PHP_SELF'] == '/laundry-php/admin/price.php' ? ' active' : ''); ?> dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link <?php echo ($_SERVER['PHP_SELF'] == '/laundry-kita/admin/price.php' ? ' active' : ''); ?> dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <i class="bi bi-gear-fill"></i> Pengaturan
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
