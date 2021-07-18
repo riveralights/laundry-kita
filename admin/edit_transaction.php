@@ -94,9 +94,9 @@
             <div class="alert alert-primary mb-3">
               <label for="status" class="form-label">Status</label>
               <select name="status" id="status" class="form-select">
-                <option <?php if( $transaksi['transaksi_status'] == "0" ){ echo "selected='selected'"; } ?>>Proses</option>
-                <option <?php if( $transaksi['transaksi_status'] == "1" ){ echo "selected='selected'"; } ?>>Dicuci</option>
-                <option <?php if( $transaksi['transaksi_status'] == "2" ){ echo "selected='selected'"; } ?>>Selesai</option>
+                <option <?php if( $transaksi['transaksi_status'] == "0" ){ echo "selected='selected'"; } ?> value="0">Proses</option>
+                <option <?php if( $transaksi['transaksi_status'] == "1" ){ echo "selected='selected'"; } ?> value="1">Dicuci</option>
+                <option <?php if( $transaksi['transaksi_status'] == "2" ){ echo "selected='selected'"; } ?> value="2">Selesai</option>
               </select>
             </div>
             <div class="grid grid-gap-2">

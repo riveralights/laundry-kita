@@ -57,7 +57,7 @@
                       echo "<span class='badge bg-warning'>Proses</span>";
                     } else if ($transaksi['transaksi_status'] == '1') {
                       echo "<span class='badge bg-primary'>Dicuci</span>";
-                    } else if ($transaksi['transaksi_status'] == '0') {
+                    } else if ($transaksi['transaksi_status'] == '2') {
                       echo "<span class='badge bg-success'>Selesai</span>";
                     }
 
