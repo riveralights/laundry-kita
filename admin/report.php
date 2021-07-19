@@ -7,6 +7,7 @@
         <div class="card-body">
           <h4>Laporan</h4>
           <form action="report.php" method="GET">
+            <div class="table-responsive">
             <table class="table table-striped table-bordered mt-4">
               <thead>
                 <tr>
@@ -21,6 +22,7 @@
                 </tr>
               </tbody>
             </table>
+            </div>
             <button type="submit" class="btn btn-primary"><i class="bi bi-funnel-fill"></i> Filter Data</button>
           </form>
         </div>
@@ -38,6 +40,7 @@
         <div class="card-body">
           <div class="mb-3">Data Laporan Laundry Periode <b><?= $start ?></b> sampai <b><?= $end ?></b></div>
           <a href="print_report.php?start=<?= $start ?>&end=<?= $end ?>" class="btn btn-primary btn-sm"><i class="bi bi-printer-fill"></i> Cetak</a>
+          <div class="table-responsive">
           <table class="table table bordered table-striped mt-4">
             <thead>
               <tr>
@@ -84,6 +87,7 @@
               <?php } ?>
             </tbody>
           </table>
+          </div>
         </div>
       </div>
       <?php } ?>

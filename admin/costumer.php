@@ -20,6 +20,7 @@
             <h4>Daftar Pelanggan</h4>
             <a href="add_costumer.php" class="btn btn-primary mb-3"><i class="bi bi-person-plus-fill"></i> Tambah Data</a>
           </div>
+          <div class="table-responsive">
           <table class="table table-hover table-bordered">
             <thead>
               <tr>
@@ -52,6 +53,7 @@
               <?php } ?>
             </tbody>
           </table>
+          </div>
         </div>
       </div>
     </div>
