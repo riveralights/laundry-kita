@@ -39,10 +39,10 @@
             <a class="nav-link <?php echo ($_SERVER['PHP_SELF'] == '/laundry-kita/admin/costumer.php' ? ' active' : ''); ?>" href="costumer.php"><i class="bi bi-person-lines-fill"></i> Pelanggan</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link<?php echo ($_SERVER['PHP_SELF'] == '/laundry-kita/admin/transaction.php' ? ' active' : ''); ?>" href="transaction.php"><i class="bi bi-currency-dollar"></i> Transaksi</a>
+            <a class="nav-link <?php echo ($_SERVER['PHP_SELF'] == '/laundry-kita/admin/transaction.php' ? ' active' : ''); ?>" href="transaction.php"><i class="bi bi-currency-dollar"></i> Transaksi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="report.php"><i class="bi bi-file-earmark-fill"></i> Laporan</a>
+            <a class="nav-link <?php echo ($_SERVER['PHP_SELF'] == '/laundry-kita/admin/report.php' ? ' active' : ''); ?>" href="report.php"><i class="bi bi-file-earmark-fill"></i> Laporan</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link <?php echo ($_SERVER['PHP_SELF'] == '/laundry-kita/admin/price.php' ? ' active' : ''); ?> dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
